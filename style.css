@@ -1,0 +1,68 @@
+body {
+  background-color: hsl(0, 0%, 9%);
+  font-family: "Times New Roman", Times, serif;
+}
+
+#card {
+  background-color: rgb(37, 36, 36);
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: center;
+  margin: 80px auto;
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 30px 20px;
+  gap: 15px;
+}
+
+#gabriel {
+  border-radius: 50%;
+  width: 120px;
+}
+
+#nome {
+  color: white;
+  text-align: center;
+}
+
+#cidade {
+  color: hsl(75, 94%, 57%);
+  margin: -30px 0 10px 0;
+
+}
+
+#texto {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 0;
+  width: 100%;
+}
+
+.link {
+  display: block;
+  height: 35px;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(51, 50, 50);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
