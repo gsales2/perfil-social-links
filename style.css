@@ -49,10 +49,11 @@ nav {
 }
 
 .link {
-  display: block;
+  display: flex;
   height: 35px;
   text-align: center;
   align-items: center;
+  justify-content: center;
   background-color: rgb(51, 50, 50);
   color: white;
   text-decoration: none;
